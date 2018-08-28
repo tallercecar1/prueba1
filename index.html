@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inicio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/style_tablas.css" />
+
+ <style>
+  .bg-1 { 
+      background-color: #1abc9c;
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+   /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+
+
+ 
+  
+
+</head>
+<body>
+
+
+<!--MENU--------------------------------->
+  <nav class="navbar navbar-expand-md navbar-togglable fixed-top bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Tecnologías de la Información</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="paginas/citas.html">Citas y Libros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+
+<!--FIN MENU--------------------------------->
+
+<br><br>
+<!--CARRUSEL------------------->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/13.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/14.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/15.jpg" alt="New York" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/16.jpg" alt="New York" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/17.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--FIN  CARRUSEL------------------->
+<br>
+  
+<!--PARRAFOS EN CARDS-->
+<div class="container ">
+
+  <div class="row">
+    <div class="col-sm-4 ">
+
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/9.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Definión</h5>
+            <p class="card-text">Las tecnologias de la información son un grupo de herramientas que nos permiten trabajar con la imformación de manera digital, desde su obtención, almacenamiento, tratamiento y visualización.</p>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="col-sm-4">
+             <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/10.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Importancia</h5>
+            <p class="card-text">"En los negocios, las tecnogías de infornacion se utilizan para el proceso de la información diaria en forma eficiente y cuando las usan en forma estrategica, las empresas pueden obtener ventajas competivivas, basando su poder en el conocimiento".</p>
+            <br>
+               <a href="paginas/citas.html">M. González Martínez (2010).</a>
+          </div>
+          
+        </div>
+
+    </div>
+
+    <div class="col-sm-4">
+
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/11.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Importancia de los software en la empresa</h5>
+            <p class="card-text" >Las empresas buscan constantemente automatizar sus procesos para aumentar sus ganancias y la productividad, y es ahi donde entran los software a jugar un papel crucial.</p>
+          </div>
+  
+ 
+        </div>
+      
+    </div>
+
+  </div>
+
+</div>
+<!--FIN PARRAFOS EN CARDS------------------------>
+
+<br>
+<div class="container-fluid bg-1 text-center">
+
+  <h4>¿De qué manera las aplicaciones web contribuyen al desarrollo, económico, social, empresarial?</h4>
+  
+  <p>Con las aplicaciones web las empresas dan a conocer sus productos al mundo y permitiendo que sus clientes interactúen con ellos e incluso realizar compras sin tener que visitar la empresa físicamente. </p>
+</div>
+<br>
+
+<!--TABLA 1-->
+
+<div class="container table-wrapper-scroll-y">
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr style="text-align: center;" >
+        <th width="50%" scope="col" >Ventajas</th>
+        <th width="50%" scope="col">Desventajas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td >Las aplicaciones web requieren poco o nada de espacio en disco. Además suelen ser livianas</td>
+        <td>Acceso limitado, la necesidad de conexión permanente y rápida a Internet hacen que el acceso a estas aplicaciones no esté al alcance de todos</td>
+      </tr>
+      <tr>
+        <td>Proveen gran compatibilidad entre plataformas (portabilidad), dado que operan en un navegador web</td>
+        <td>Muchas no son de código abierto, perdiendo flexibilidad</td>
+      </tr>
+      <tr>
+        <td>Las aplicaciones basadas en Web no necesitan ser descargadas, instaladas y configuradas.</td>
+        <td>El usuario, en general, no tiene libertad de elegir la versión de la aplicación web que quiere usar</td>
+      </tr>
+      <tr>
+        <td>Las aplicaciones basadas en Web pueden ser utilizadas por múltiples usuarios al mismo tiempo</td>
+        <td>En teoría, el desarrollador de la aplicación web puede rastrear cualquier actividad que el usuario haga</td>
+      </tr>
+    
+    </tbody>
+  </table>
+
+</div>
+<!--FIN   TABLA 1-->
+<br>
+
+
+<div class="container-fluid bg-2 text-center">
+
+  <h4>¿De qué manera las aplicaciones orientadas a móviles contribuyen al desarrollo, económico, social, empresarial? </h4>
+  <p>Las aplicaciones móviles hoy en día contribuyen de la misma forma que las aplicaciones web, pero estas son mas fáciles de usar para los usuarios, al estar instalada en su celular no tiene que ir a buscarla en navegadores.</p>
+</div>
+
+<br>
+
+<!--TABLA 2-->
+<div class="container table-wrapper-scroll-y">
+  <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr style="text-align: center;" >
+        <th width="50%" scope="col" >Ventajas</th>
+        <th width="50%" scope="col">Desventajas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td >Acceso completo al dispositivo, en software y hardware</td>
+        <td>Diferentes lenguajes de programación y habilidades según el sistema operativo</td>
+      </tr>
+      <tr>
+        <td>Mejor experiencia de usuario</td>
+        <td>Costos y tiempos de desarrollo altos</td>
+      </tr>
+      <tr>
+        <td>No necesitan siempre de conexión a internet para su funcionamiento</td>
+        <td>Sólo pueden ser utilizadas con el sistema para el que han sido creadas</td>
+      </tr>
+    
+    
+    </tbody>
+  </table>
+
+</div>
+<br>
+<!--FIN   TABLA 2-->
+<hr>
+
+<!--CARDS------------------------------------------>
+<div class="container">
+
+
+
+<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded">
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/5.jpg" alt="1" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/6.jpg" alt="2" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/4.jpg" alt="3" width="1100" height="500">
+    </div>
+    
+  </div>
+</div>
+
+ <!-- <img class="card-img-top" src="img/6.jpg" alt="Card image cap"> -->
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text">Las tecnologias de la información se han convertido hoy en dia en una necesidad para las empresas, 
+      aumentando la producción, competitividad y en el campo educativo ayudando en forma de educar.</p>
+   
+  </div>
+</div>
+  
+</div>
+<!--FIN CARDS------------------------------------------>
+
+
+<div class="container-fluid bg-2 text-center">
+ <div class="panel panel-default">
+    <div class="panel-heading">Todos los derechos reservados</div>
+    <div class="panel-body">Fernando Bolivar Navarro</div>
+    <div class="panel-footer">CECAR</div>
+  </div>
+</div>
+
+</body>
+</html>

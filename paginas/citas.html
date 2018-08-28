@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Citas y Libros</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+ <style>
+  .bg-1 { 
+      background-color: #1abc9c;
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+   /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+
+
+ 
+  
+
+</head>
+<body>
+
+
+<!--MENU--------------------------------->
+  <nav class="navbar navbar-expand-md navbar-togglable fixed-top bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Tecnologías de la Información</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="paginas/citas.html">Citas y Libros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+
+<!--FIN MENU--------------------------------->
+
+
+<br><br><br>
+  
+
+
+<!--CARDS------------------------------------------>
+<div class="container">
+
+  <div class="row" >
+  <div class="col-sm-8">
+    <div class="card" >
+      <div class="card-body">
+        <h5 class="card-title">Cita 1</h5>
+        <p class="card-text">M. González Martínez (2010). Tecnologías de la información.(2a. ed.) McGraw-Hill Interamericana. Página 2. Tomado de http://www.ebooks7-24.com.ezproxy.cecar.edu.co:8080</p>
+        <a href="http://www.ebooks7-24.com.ezproxy.cecar.edu.co:8080" class="btn btn-info" target="_blank">Mas informacion</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tecnologías de la información.(2a. ed.)</h5>
+        <img class="card-img-top" src="../img/libro1.png" alt="Card image cap">
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded">
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/4.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/5.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/6.jpg" alt="New York" width="1100" height="500">
+    </div>
+    
+  </div>
+</div>
+
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text">Las tecnologias de la información se han convertido hoy en dia en una necesidad para las empresas, 
+      aumentando la producción, competitividad y en el campo educativo ayudando en forma de educar.</p>
+   
+  </div>
+</div>
+  
+</div>
+<!--FIN CARDS------------------------------------------>
+
+
+<div class="container-fluid bg-2 text-center">
+ <div class="panel panel-default">
+    <div class="panel-heading">Todos los derechos reservados</div>
+    <div class="panel-body">Fernando Bolivar Navarro</div>
+    <div class="panel-footer">CECAR</div>
+  </div>
+</div>
+
+</body>
+</html>
